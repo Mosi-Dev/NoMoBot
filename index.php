@@ -36,6 +36,11 @@ include "Plugins/Qr.php";
 include "Plugins/Calc.php";
 include "Plugins/Cat.php";
 include "Plugins/Photo.php";
+include "Plugins/Echo.php";
+include "Plugins/Date-Time.php";
+include "Plugins/Logo.php";
+include "Plugins/9Gag.php";
+include "Plugins/WebShot.php";
 ##------------------------------##
 if (strpos($block , "$from_id") !== false) {
 	return false;
