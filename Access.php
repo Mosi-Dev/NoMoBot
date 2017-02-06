@@ -87,5 +87,11 @@ function bot($method,$datas=[]){
 	'caption'=>$caption
 	]);
 	}
+	function SendAction($chat_id, $action){
+	bot('SendChatAction',[
+	'chat_id'=>$chat_id,
+	'action'=>$action
+	]);
+	}
 	##------------------------------##
 	?>
