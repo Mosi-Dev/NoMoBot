@@ -42,8 +42,7 @@ elseif($text == "📊آمار کاربران" and in_array($from_id,$ADMIN) ){
     $user = file_get_contents("Admin/Member.txt");
     $member_id = explode("\n",$user);
     $member_count = count($member_id) -1;
-	$stats = json_decode(file_get_contents("http://api.norbert-team.ir/nomobot/?token=$API_KEY&stats=$member_count"));
-	ForwardMessage($chat_id, "@NoMo_Stats", $stats->message_id);
+	SendMessage($chat_id , "📊 آمار کاربران : $member_count" , "html");
 }
 elseif($text == "⭕️لیست سیاه" and in_array($from_id,$ADMIN) ){
 	SendAction($chat_id,'typing');
