@@ -27,6 +27,7 @@ $reply = $update->message->reply_to_message;
 $block = file_get_contents("Admin/Block-List.txt");
 $start = file_get_contents("Admin/Start.txt");
 $help = file_get_contents("Admin/Help.txt");
+$command = file_get_contents("Admin/Command.txt");
 ##------------------------------##
 // Enable Plugins
 ##------------------------------##
@@ -41,6 +42,11 @@ include "Plugins/Date-Time.php";
 include "Plugins/Logo.php";
 include "Plugins/9Gag.php";
 include "Plugins/WebShot.php";
+include "Plugins/Short.php";
+include "Plugins/Reply.php";
+include "Plugins/Location.php";
+include "Plugins/Sticker.php";
+include "Plugins/Start-Help.php";
 ##------------------------------##
 if (strpos($block , "$from_id") !== false) {
 	return false;
