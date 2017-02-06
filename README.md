@@ -1,6 +1,6 @@
 <p align="center"> ![http://s4.picofile.com/file/8284446700/nomobot.png](http://s4.picofile.com/file/8284446700/nomobot.png)
 <h1><p align="center"> [نوموبات](https://telegram.me/NomoBot)
-<h1><p align="center"> `ورژن 1`
+<h1><p align="center"> `ورژن 2`
 ***
 <h3><p align="center"> [سازنده](https://telegram.me/norbert_team)
 <h3><p align="center"> [کانال](https://telegram.me/norbert_team)
