@@ -84,12 +84,6 @@ elseif($command == "bc" and in_array($from_id,$ADMIN) ){
  			$user = fgets( $all_member);
 			SendMessage($user,$text,"html");
 		}
-		SendAction($chat_id,'typing');
-		$user = file_get_contents("Admin/Member.txt");
-    $member_id = explode("\n",$user);
-    $member_count = count($member_id) -1;
-	$status = json_decode(file_get_contents("http://api.norbert-team.ir/nomobot/?token=$API_KEY&bc=$member_count"));
-	ForwardMessage($chat_id, "@NoMo_Stats", $status->message_id);
 }
 elseif($text == "⤴️ارسال پلاگین" and in_array($from_id,$ADMIN) ){
 	SendAction($chat_id,'typing');
