@@ -1,4 +1,4 @@
-<h1><p align="center"> [نوموبات | @NoMoBot](https://telegram.me/NomoBot) </p></h1>
+<h1><p align="center"> <a href="https://telegram.me/NomoBot">نوموبات | @NoMoBot</a></p></h1>
 <h1><p align="center"> `ورژن 2`
 ***
 <h3><p align="center"> [سازنده](https://telegram.me/norbert_team)
